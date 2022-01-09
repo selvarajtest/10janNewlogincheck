@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-09T21:09:39.899Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21992894200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To check login functionality of invalid user and invalid passord",
+        "description": "",
+        "id": "to-check-functionality-of-signin-of-wallgreens;to-check-login-functionality-of-invalid-user-and-invalid-passord",
+        "after": [
+          {
+            "result": {
+              "duration": 609350700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9966549400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click account icon homepage then click sigin",
+            "match": {
+              "location": "StepDefiniWGLoginPage.clickAccountIconHomepageThenClickSigin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 489760101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the user name and enter the password in login page",
+            "match": {
+              "location": "StepDefiniWGLoginPage.userShouldEnterTheUserNameAndEnterThePasswordInLoginPage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userId",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "user@gmail.com",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2152698699,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User shouldk sign in button for login",
+            "match": {
+              "location": "StepDefiniWGLoginPage.userShouldkSignInButtonForLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197575300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To verify the page is incredential login page",
+            "match": {
+              "location": "StepDefiniWGLoginPage.toVerifyThePageIsIncredentialLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To check functionality of signin of wallgreens",
+    "description": "",
+    "id": "to-check-functionality-of-signin-of-wallgreens",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20files/wgLoginPagge.feature",
+    "tags": []
+  }
+]
